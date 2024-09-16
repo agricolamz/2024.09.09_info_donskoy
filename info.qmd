@@ -1,0 +1,36 @@
+---
+format: 
+  pdf:
+    mainfont: Brill
+    header-includes: |
+       \usepackage{caption}
+       \captionsetup[subfigure]{labelformat=empty}
+editor: visual
+---
+
+\huge
+
+Уважаемые соседи!
+
+\vspace{5em}
+
+До **24 октября 2024** года идет голосование по вопросам, вынесенным управляющей компанией. Актив жильцов внимательно рассмотрел вопросы повестки, и сформулировал свое мнение по каждому из них. Со всеми документами можно ознакомиться ниже:
+
+\vspace{5em}
+
+```{r}
+#| echo: false
+#| fig-align: left
+#| layout-ncol: 2
+#| fig-subcap: 
+#|  - "\\huge Решение актива"
+#|  - "\\huge Бюллетень УК"
+
+qrcode::qr_code("https://github.com/agricolamz/2024.09.17_dial2/raw/main/2024.09.17_dial2.pdf", ecl = "L") |> plot()
+
+qrcode::qr_code("https://github.com/agricolamz/2024.09.17_dial2/raw/main/2024.09.17_dial.pdf", ecl = "L") |> plot()
+```
+
+
+
+
