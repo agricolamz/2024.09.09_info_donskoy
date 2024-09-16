@@ -5,18 +5,18 @@ format:
     header-includes: |
        \usepackage{caption}
        \captionsetup[subfigure]{labelformat=empty}
-editor: visual
+editor: source
 ---
 
 \huge
 
 Уважаемые соседи!
 
-\vspace{5em}
+\vfill
 
 До **24 октября 2024** года идет голосование по вопросам, вынесенным управляющей компанией. Актив жильцов внимательно рассмотрел вопросы повестки, и сформулировал свое мнение по каждому из них. Со всеми документами можно ознакомиться ниже:
 
-\vspace{5em}
+\vfill
 
 ```{r}
 #| echo: false
@@ -26,11 +26,7 @@ editor: visual
 #|  - "\\huge Решение актива"
 #|  - "\\huge Бюллетень УК"
 
-qrcode::qr_code("https://github.com/agricolamz/2024.09.17_dial2/raw/main/2024.09.17_dial2.pdf", ecl = "L") |> plot()
+qrcode::qr_code("https://raw.githubusercontent.com/agricolamz/2024.09.09_info_donskoy/refs/heads/main/2024.09.16_recommendation.PDF", ecl = "L") |> plot()
 
-qrcode::qr_code("https://github.com/agricolamz/2024.09.17_dial2/raw/main/2024.09.17_dial.pdf", ecl = "L") |> plot()
+qrcode::qr_code("https://raw.githubusercontent.com/agricolamz/2024.09.09_info_donskoy/refs/heads/main/2024.09.09_ballot_paper.PDF", ecl = "L") |> plot()
 ```
-
-
-
-
